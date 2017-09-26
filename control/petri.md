@@ -95,6 +95,22 @@ subs:
     digits: 4
 ```
 
+``` control
+path: loopin/mesh/ball
+subs:
+  arc/cols:
+    type: float
+    precision: 0
+    min: 3
+    max: 20
+
+  arc/span:
+    type: float
+    unit: °
+    min: 15
+    max: 360
+```
+
 
 ``` control
 path: loopin/camera/view/zoom
