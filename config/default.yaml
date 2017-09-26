@@ -4,7 +4,7 @@ debug:
 server:
   listen: 7004
 
-  index: control/example.md
+  index: control/petri.md
 
   page:
     title: Loopin Petri Dish
