@@ -1,0 +1,56 @@
+# written by horten-persist-file at 2017-09-26T07:03:40-07:00
+loopin:
+  window:
+    fullscreen: false
+    height: 0
+    width: 0
+    x: -1821
+    'y': 405
+    cursor: false
+  show:
+    buffer: canvas
+  osd:
+    enabled: false
+    client: ''
+    text: ''
+  render:
+    canvas:
+      float:
+        blurZoom: 0.6961303852211513
+        blurAmount: 0.1693805309734517
+        size: 0.26095327102803767
+        gain: 1.9082540823431613
+        blurZoomPow: 0.09860107324493253
+        sizeMin: 0.3406578947368421
+        sizeMax: 0.10717105263157907
+      passes: 512
+    particles:
+      float:
+        colourDistAmount: 0.5
+        colourDistOffset: -0.5
+        damping: 0.0008553408964600153
+        churn: 3
+        gravity: 0.09066899584381279
+  camera:
+    view:
+      zoom: -3.7992240543161975
+  save:
+    canvas:
+      dest: >-
+        /Volumes/hdd/koop/loopin/loopin-example-petri/data/snap/snap.1506434572108.jpg
+      format: jpg
+      frame: 19905
+      quality: best
+  clock:
+    mode: time
+    rate: 60
+    speed: 1
+logic:
+  snapshot:
+    buffer: canvas
+    snap: 1506434572102
+  giffer:
+    start: 1505990421250
+    buffer: canvas
+    delay: 0
+    count: 600

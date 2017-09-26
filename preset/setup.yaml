@@ -1,2 +1,6 @@
 clock:
   mode: time
+
+pixels/white:
+  format: hex2
+  data: fff

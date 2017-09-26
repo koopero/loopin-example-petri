@@ -19,16 +19,14 @@ loopin.plugin('imageDir')
 loopin.imageDir( { watch: true, autoload: true } )
 
 loopin.plugin( require('./logic/snapshot' ) )
+loopin.plugin( require('./logic/giffer' ) )
+
 
 if ( config.get('debug.verbose') )
   loopin.logShow('patch')
 
 loopin.plugin( require('loopin-native'), {
-  root: resolve('native'),
   useEnv: true
 } )
 
 loopin.bootstrap()
-.then( function () {
-  // Loopin is sucessfully booted!
-})

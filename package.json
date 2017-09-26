@@ -1,15 +1,18 @@
 {
-  "name": "loopin-starter",
-  "version": "0.8.0-alpha",
-  "description": "Starter project for Loopin applications.",
+  "name": "loopin-example-petri",
+  "version": "0.1.0",
+  "description": "Loopin Petri example.",
   "main": "./node/index.js",
+  "bin": {
+    "loopin-example-petri": "./node/index.js",
+  },
   "scripts": {
     "start": "./node/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koopero/loopin-starter.git"
+    "url": "git+https://github.com/koopero/loopin-example-petri.git"
   },
   "keywords": [
     "Loopin"
@@ -17,15 +20,17 @@
   "author": "Samm Zuest Cooper <samm@sublight.ca>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koopero/loopin-starter/issues"
+    "url": "https://github.com/koopero/loopin-example-petri/issues"
   },
-  "homepage": "https://github.com/koopero/loopin-starter#readme",
+  "homepage": "https://github.com/koopero/loopin-example-petri#readme",
   "dependencies": {
     "config": "^1.26.2",
+    "handleshells": "^0.1.1",
     "horten": "^0.8.3",
     "js-yaml": "^3.10.0",
     "loopin": "^0.8.0-alpha",
-    "loopin-native": "^0.8.0-alpha",
-    "loopin-server": "^0.1.2"
+    "loopin-native": "^0.8.0-beta",
+    "loopin-server": "^0.1.x",
+    "zeropad": "^1.1.0"
   }
 }

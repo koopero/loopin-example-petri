@@ -37,7 +37,33 @@ subs:
 
   buffer:
     options:
-      - example_planet
+      - canvas
+      - particles
+```
+
+# Giffer
+
+``` control
+path: logic/giffer
+subs:
+  start:
+    type: trigger
+  delay:
+    type: slider
+    metric: true
+    unit: s
+    min: 0
+    max: 10
+  count:
+    type: slider
+    metric: true
+    min: 30
+    max: 600
+
+  buffer:
+    options:
+      - canvas
+      - particles
 ```
 
 ## OSD

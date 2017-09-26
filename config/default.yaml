@@ -7,10 +7,10 @@ server:
   index: control/example.md
 
   page:
-    title: Loopin Stater Project
+    title: Loopin Petri Dish
     nav:
-      - title: Example
-        page: control/example.md
+      - title: Petri
+        page: control/petri.md
 
       - title: Utility
         page: control/utility.md

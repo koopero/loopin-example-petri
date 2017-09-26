@@ -1,0 +1,39 @@
+buffer/particles:
+  width: 256
+  height: 2048
+  rows: 4
+  format: rgba32
+
+buffer/canvas:
+  width: 1920
+  height: 1080
+  format: rgba32
+
+render/particles:
+  advance: true
+  shader: petri
+  src: particles
+
+
+render/canvas:
+  clear: true
+  depth: false
+  blend: screen
+  shader: particle_paint
+  mesh: ball
+  camera: view
+  src:
+    buffer: particles
+    filter: nearest
+
+  transform:
+    y: 0
+
+
+mesh/ball:
+  aspect: 1
+  arc:
+    count: 512
+    rows: 1
+    cols: 10
+    span: 270
