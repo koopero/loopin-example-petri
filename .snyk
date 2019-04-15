@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - loopin-server > horten-server > horten-control > less > request > hawk > hoek:
+        patched: '2019-04-15T21:36:39.245Z'
+    - loopin-server > horten-server > horten-control > less > request > hawk > boom > hoek:
+        patched: '2019-04-15T21:36:39.245Z'
+    - loopin-server > horten-server > horten-control > less > request > hawk > sntp > hoek:
+        patched: '2019-04-15T21:36:39.245Z'
+    - loopin-server > horten-server > horten-control > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-15T21:36:39.245Z'
+  'npm:lodash:20180130':
+    - loopin > unique-file-name > lodash:
+        patched: '2019-04-15T21:36:39.245Z'
+    - loopin-native > loopin > unique-file-name > lodash:
+        patched: '2019-04-15T21:36:39.245Z'
