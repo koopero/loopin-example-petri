@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start": "./node/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -28,9 +30,11 @@
     "handleshells": "^0.1.1",
     "horten": "^0.8.3",
     "js-yaml": "^3.10.0",
-    "loopin": "^0.8.0-alpha",
-    "loopin-native": "^0.8.0-beta",
+    "loopin": "^0.9.0",
+    "loopin-native": "^0.9.1",
     "loopin-server": "^0.1.x",
-    "zeropad": "^1.1.0"
-  }
+    "zeropad": "^1.1.0",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
