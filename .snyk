@@ -1,0 +1,80 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - loopin-native > loopin > treebird > boptions > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - handleshells > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-native > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin > treebird > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-native > loopin > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-native > boptions > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin > boptions > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin > treebird > boptions > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-control > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-native > loopin > treebird > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin > unique-file-name > async > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-native > loopin > boptions > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-persist-file > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-control > google-fonts-webpack-plugin > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > treebird > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-native > loopin > unique-file-name > async > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > treebird > boptions > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-control > request-promise > request-promise-core > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-control > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-types > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-generator > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-register > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-traverse > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-template > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
+    - loopin-server > horten-server > horten-websocket > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-03T21:36:57.376Z'
