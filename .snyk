@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - handleshells > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-native > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin > boptions > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-native > boptions > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin > treebird > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-native > loopin > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > horten-server > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin > treebird > boptions > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-native > loopin > treebird > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin > unique-file-name > async > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-native > loopin > boptions > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-native > loopin > unique-file-name > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > horten-server > horten-control > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > horten-server > horten-persist-file > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-native > loopin > treebird > boptions > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > horten-server > horten-websocket > treebird > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-native > loopin > unique-file-name > async > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > horten-server > horten-control > google-fonts-webpack-plugin > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > horten-server > horten-websocket > treebird > boptions > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > horten-server > horten-control > request-promise > request-promise-core > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > horten-server > horten-control > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
+    - loopin-server > horten-server > horten-control > webpack-dev-server > portfinder > async > lodash:
+        patched: '2020-04-30T21:37:33.663Z'
